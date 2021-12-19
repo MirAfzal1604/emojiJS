@@ -8,6 +8,6 @@ const emoji = [
     "🦍", "🦧", "🐕", "🦝", "🦝", "🦊", "🦣", "🐘", "🦒", "🍋", "🥛",
 ];
 
-btn.addEventListener("mouseover", () => {
+btn.addEventListener("click", () => {
     btn.innerHTML = emoji[Math.floor(Math.random() * emoji.length)];
 });
